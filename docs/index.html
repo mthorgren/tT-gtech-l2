@@ -43,15 +43,18 @@
             <section class="gallery-section">
                 <h2>Bildserie</h2>
                 <div class="image-grid">
-                    <figure>
-                        <img src="images/bild2.jpg" alt="Höglandsossa vilar på gräsberikad kuperad kustmiljö">
-                    </figure>
-                    <figure>
-                        <img src="images/bild3.jpg" alt="Hav som brisar lätt in över stranden i en kuperad kustmiljö under skymning">
-                    </figure>
-                    <figure>
-                        <img src="images/bild4.jpg" alt="Kokkanna över öppen eld i rå utomhusmiljö">
-                    </figure>
+                    <picture>
+                        <source srcset="images/bild2.webp" type="image/webp">
+                        <img src="images/bild2.jpg" alt="Höglandsossa vilar på gräsberikad kuperad kustmiljö" width="1200" height="900" loading="lazy">
+                    </picture>
+                    <picture>
+                        <source srcset="images/bild3.webp" type="image/webp">
+                        <img src="images/bild3.jpg" alt="Hav som brisar lätt in över stranden i en kuperad kustmiljö under skymning" width="1200" height="1600" loading="lazy">
+                    </picture>
+                    <picture>
+                        <source srcset="images/bild4.webp" type="image/webp">
+                        <img src="images/bild4.jpg" alt="Kokkanna över öppen eld i rå utomhusmiljö" width="1200" height="832" loading="lazy">
+                    </picture>
                 </div>
             </section>            
         </main>
