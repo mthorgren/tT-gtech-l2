@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Linear Gradient -->
+    <linearGradient id="tT-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7e9e9" />
+      <stop offset="100%" stop-color="#a70133" />
+    </linearGradient>
+
+    <!-- Subdued Cyber Grid -->
+    <pattern id="grid-pattern" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#f7e9e9" stroke-width="1" opacity="0.15" />
+    </pattern>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="512" height="512" fill="#020305" rx="96" />
+   <!-- <rect width="512" height="512" fill="url(#grid-pattern)" rx="96" /> -->
+
+  <!-- Code Bracket Accents: Right > -->
+  <path fill="none" stroke="#f7e9e9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="M 440 176 L 476 256 L 440 336" />
+
+  <!-- Monogram Group: "tT" -->
+  <g transform="translate(75, 100)">
+    <!-- Lowercase 't' -->
+    <path fill="#f7e9e9" d="
+      M 30 110
+      H 110
+      V 50
+      H 150
+      V 110
+      H 190
+      V 150
+      H 150
+      V 250
+      L 170 270
+      H 190
+      V 310
+      H 150
+      Q 110 310 110 270
+      V 150
+      H 30
+      Z
+    " />
+    
+    <!-- Cutout tech details on lowercase 't' -->
+    <polygon fill="#181215" points="30,110 60,110 45,130" />
+
+    <!-- Uppercase 'T' -->
+    <path fill="url(#tT-gradient)" d="
+      M 180 50
+      H 310
+      L 290 90
+      H 265
+      V 310
+      H 225
+      V 90
+      H 180
+      Z
+    " />
+
+    <!-- Robotic Accent Blocks on Uppercase 'T' -->
+    <polygon fill="#350010" points="310,50 330,50 310,90" />
+    <circle fill="#181215" cx="245" cy="270" r="6" />
+  </g>
+</svg>
