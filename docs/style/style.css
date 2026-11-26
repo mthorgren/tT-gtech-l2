@@ -280,4 +280,14 @@ footer {
         justify-content: flex-start;
         gap: 0.25rem 0.75rem;
     }
+    .profile-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .profile-image {
+        max-width: 180px;
+        margin-inline: auto;
+    }
 }
