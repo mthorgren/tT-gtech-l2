@@ -268,4 +268,16 @@ footer {
     }
 }
 
-
+@media (max-width: 480px) {
+    .header-container {
+        justify-content: flex-start;
+        gap: 0.5rem;
+    }
+    nav {
+        flex-basis: 100%;
+    }
+    nav ul {
+        justify-content: flex-start;
+        gap: 0.25rem 0.75rem;
+    }
+}
